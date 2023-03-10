@@ -41,6 +41,8 @@ ul {
 .sign-up {
     background: #3882F6;
     color: white;
+    max-width: 100px;
+    margin-top: 10px;
 }
 
 .simba {
@@ -51,6 +53,7 @@ ul {
 .container {
     display: flex;
     flex-direction: column; 
+    max-width: 300px;
 }
 
 .random {
@@ -59,4 +62,15 @@ ul {
     color: #1F2937;
     text-align: center;
     margin: 32px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 32px;
+}
+
+.info {
+    max-width: 200px;
 }
