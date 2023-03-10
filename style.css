@@ -30,7 +30,7 @@ ul {
 
 .main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 40px;
 }
 .main-title {
@@ -50,7 +50,13 @@ ul {
 
 .container {
     display: flex;
-    max-width: 300px;
-    flex-direction: column;
-    margin-right: 160px;
+    flex-direction: column; 
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px;
 }
