@@ -74,3 +74,18 @@ ul {
 .info {
     max-width: 200px;
 }
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.inspiring {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+img#churu {
+    width: 100px;
+    height: auto;
+    border: 2px solid blue;
+}
