@@ -100,3 +100,24 @@ img#churu {
     height: auto;
     border: 2px solid blue;
 }
+
+.box {
+    background-color: #3882f6;
+    color: white;
+    width: 800px;
+    padding: 40px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.call {
+    font-weight: bolder;
+}
+.sign {
+
+}
+
+
+
