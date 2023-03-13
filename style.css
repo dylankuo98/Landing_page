@@ -1,6 +1,7 @@
 
 .header,
-.main {
+.main,
+.footer {
     background-color:#1f2937;
 }
 a,
@@ -41,8 +42,10 @@ ul {
 .sign-up {
     background: #3882F6;
     color: white;
-    max-width: 100px;
+    width: 80px;
     margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 .simba {
@@ -99,24 +102,35 @@ img#churu {
     width: 100px;
     height: auto;
     border: 2px solid blue;
+    border-radius: 10px;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box {
     background-color: #3882f6;
     color: white;
-    width: 800px;
+    max-width: 800px;
     padding: 40px;
-    margin: 50px;
+    margin: 40px;
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
 }
 
 
 .call {
     font-weight: bolder;
 }
-.sign {
-
+.footer {
+    padding: 20px;
+}
+.copyright {
+    text-align: center;
+    color: white;
 }
 
 
