@@ -82,6 +82,17 @@ ul {
 .inspiring {
     font-size: 36px;
     color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bolder;
+    text-align: end;
+}
+
+.quote {
+    margin: 10px;
+    padding: 80px;
 }
 
 img#churu {
