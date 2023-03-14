@@ -27,6 +27,7 @@ ul {
     justify-content: space-around;
     padding: 18px;
     margin: 0px;
+    gap: 120px;
 }
 
 .main {
@@ -57,7 +58,8 @@ ul {
 .container {
     display: flex;
     flex-direction: column; 
-    max-width: 300px;
+    max-width: 400px;
+    margin: 20px;
 }
 
 .random {
@@ -71,8 +73,13 @@ ul {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 50px;
     margin-bottom: 32px;
+    text-align: center;
+}
+.text {
+    max-width: 150px;
+    margin: 5px auto;
 }
 
 .info {
